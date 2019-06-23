@@ -1,0 +1,19 @@
+{ "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "captures": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "expected": {"type": "string"},
+            "actual": {"type": "string"},
+            "time": {"type": "string"}
+          }, "required": ["expected","actual","time"]
+        }
+      ]
+    }
+  },
+  "required": ["captures"]
+}

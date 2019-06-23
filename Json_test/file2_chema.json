@@ -1,0 +1,31 @@
+{"$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "suites": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {"type": "string"},
+            "tests": {"type": "integer"},
+            "cases": {"type": "array",
+                             "items": [
+                {"type": "object",
+                  "properties": {
+                    "name": {"type": "string"},
+                    "errors": {"type": "integer"},
+                    "time": {"type": "string"}
+                  },
+                  "required": ["name","errors","time"]
+                }
+              ]
+            }
+          },
+          "required": ["name","tests","cases"]
+        }
+      ]
+    }
+  },
+  "required": ["suites"]
+}

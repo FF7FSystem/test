@@ -1,0 +1,26 @@
+[
+    {
+        "Actual": "B",
+        "Expected": "B",
+        "Name_test": "suite2-Test output a",
+        "Status": "checked - check and test do not match"
+    },
+    {
+        "Name_test": "suite1-Test output D",
+        "Status": "Not verified",
+        "actual": "not known",
+        "expected": "not known"
+    },
+    {
+        "Name_test": "Test output A",
+        "Status": "Not verified",
+        "actual": "not known",
+        "expected": "not known"
+    },
+    {
+        "Name_test": "Test output C",
+        "Status": "Not verified",
+        "actual": "not known",
+        "expected": "not known"
+    }
+]
