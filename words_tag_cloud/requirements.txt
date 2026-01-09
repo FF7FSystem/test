@@ -13,7 +13,7 @@ lxml==4.6.1
 matplotlib==3.3.2
 multidict==4.7.6
 nltk==3.5
-numpy==1.19.2
+numpy==1.22.0
 Pillow==8.0.0
 pyparsing==2.4.7
 python-dateutil==2.8.1
